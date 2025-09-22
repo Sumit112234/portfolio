@@ -43,10 +43,11 @@ const Navbar = () => {
   }, []);
 
   const scrollToSection = (sectionId) => {
-    const element = document.getElementById(sectionId);
+    const target = sectionId === 'about' ? 'hero' : sectionId;
+    const element = document.getElementById(target);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
-      setIsOpen(false); // Close mobile menu after clicking
+      setTimeout(() => setIsOpen(false), 300);
     }
   };
 

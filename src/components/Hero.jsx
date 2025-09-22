@@ -339,20 +339,27 @@ const Hero = () => {
           transition={{ delay: 0.8, duration: 0.8 }}
           className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12"
         >
-          <motion.button
-            whileHover={{ 
-              scale: 1.05,
-              boxShadow: [
-                '0 0 20px rgba(0, 255, 255, 0.4)',
-                '0 0 40px rgba(0, 255, 255, 0.6)',
-                '0 0 20px rgba(0, 255, 255, 0.4)'
-              ],
-            }}
-            whileTap={{ scale: 0.95 }}
-            className="group px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full font-medium flex items-center gap-2 relative overflow-hidden border border-cyan-400/30"
-          >
-            {/* <Download className="w-5 h-5 relative z-10" /> */}
-            <span className="relative z-10 cursor-pointer">Download Resume</span>
+            <motion.button
+              whileHover={{ 
+                scale: 1.05,
+                boxShadow: [
+                  '0 0 20px rgba(0, 255, 255, 0.4)',
+                  '0 0 40px rgba(0, 255, 255, 0.6)',
+                  '0 0 20px rgba(0, 255, 255, 0.4)'
+                ],
+              }}
+              whileTap={{ scale: 0.95 }}
+              onClick={() => {
+                const link = document.createElement('a');
+                link.href = '/Updated_Resume.pdf';
+                link.download = 'Sumit_Baghel_Resume.pdf';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+              }}
+              className="group px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full font-medium flex items-center gap-2 relative overflow-hidden border border-cyan-400/30"
+            >
+              <span className="relative z-10 cursor-pointer">Download Resume</span>
             
             {/* Circuit pattern overlay */}
             <motion.div

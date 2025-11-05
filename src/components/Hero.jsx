@@ -351,7 +351,7 @@ const Hero = () => {
               whileTap={{ scale: 0.95 }}
               onClick={() => {
                 const link = document.createElement('a');
-                link.href = '/Updated_Resume.pdf';
+                link.href = '/my-resume.pdf';
                 link.download = 'Sumit_Baghel_Resume.pdf';
                 document.body.appendChild(link);
                 link.click();

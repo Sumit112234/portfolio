@@ -9,7 +9,7 @@ export const portfolioData = {
     phone: "+91 9301819492",
     location: "Gwalior, Madhya Pradesh, India",
     bio: "Enthusiastic full-stack developer with hands-on experience through projects and internships. I love transforming complex challenges into clean, user-friendly solutions.",
-    image: '/photo.png' || "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+    image: '/my-phooto.png' || "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
   },
   education : [
       {
@@ -130,7 +130,7 @@ export const portfolioData = {
     featured: true,
   },
   {
-    id: 4,
+    id: 50,
     title: 'Image Generator',
     description:
       'Image generation app using AI to create images from prompts with modern UI.',

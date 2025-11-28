@@ -352,7 +352,7 @@ const Hero = () => {
               onClick={() => {
                 const link = document.createElement('a');
                 link.href = '/my-resume.pdf';
-                link.download = 'Sumit_Baghel_Resume.pdf';
+                link.download = 'my-resume-latest.pdf';
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);

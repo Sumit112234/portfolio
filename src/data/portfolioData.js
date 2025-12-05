@@ -1,6 +1,7 @@
 import { Github, Link } from "lucide-react";
 
 export const portfolioData = {
+  update : ['grademanagement, google meet, hisaab kitaab, mychatting app'],
   personal: {
     name: "Sumit Baghel",
     title: "Full Stack Developer",
@@ -99,36 +100,87 @@ export const portfolioData = {
     description:
       'AI-powered mock interview platform with a live avatar conducting personalized interviews and delivering instant AI-driven feedback. Includes a full admin panel for managing candidates, questions and analytics.',
     image: '/images/ai-interviewer.png',
-    technologies: ['Next.js', 'MongoDB', 'TailwindCSS', 'OAuth', 'AI/NLP'],
+    technologies: ['Next.js', 'MongoDB', 'TailwindCSS', 'OAuth', 'COHERE'],
     liveUrl: 'https://my-interviewer.vercel.app/',
     githubUrl: 'https://github.com/Sumit112234/Ai-Interviewer',
     videoUrl: '/vedio/ai-interview.mp4',
     featured: true,
   },
-  {
-    id: 2,
-    title: 'Guru Electronics Ecommerce',
-    description:
-      'Full-featured e-commerce website for electronics with real-time inventory, secure payments and an admin dashboard.',
-    image: '/images/guru-electronic.png',
-    technologies: ['Next.js', 'TypeScript', 'Prisma', 'Socket.io'],
-    liveUrl: 'https://guruelectronic.vercel.app/',
-    githubUrl: 'https://github.com/Sumit112234/Guru-Ecommerce',
-    videoUrl: '/vedio/guru-electronic.mp4',
-    featured: true,
-  },
-  {
+    {
     id: 3,
     title: 'Exam Pro',
     description:
       'Online testing platform offering mock, mini and section-wise tests with an admin panel for managing users and results.',
     image: '/images/exam-pro.png',
-    technologies: ['React', 'Python', 'FastAPI', 'WebSocket', 'OpenAI'],
+    technologies: ['Next js', 'Mongo DB', 'OAuth', 'tailwindcss'],
     liveUrl: 'https://mymock.vercel.app/',
     githubUrl: 'https://github.com/Sumit112234/Exam-Taker',
     videoUrl: '/vedio/exam-pro.mp4',
     featured: true,
   },
+  {
+    id: 12,
+    title: 'Hisaab Barabar',
+    description:
+      'A software that enables you to manage your finances efficiently by tracking income, expenses, and generating reports.',
+    image: '/images/hisaab-barabar.png',
+    technologies: ['React js', 'MongoDB', 'TailwindCSS', 'Expressjs', 'Node js'],
+    liveUrl: 'https://hisaab-kitaab-one.vercel.app/',
+    githubUrl: 'https://github.com/Sumit112234',
+    videoUrl: '/vedio/hisaab-barabar.mp4',
+    featured: true,
+  },
+  {
+    id: 13,
+    title: 'Chatting App',
+    description:
+      'Real-time chat application with user authentication, private messaging, and group chats using WebSocket technology. Built with FERN stack and deployed on Vercel.',
+    image: '/images/chatting-app.png',
+    technologies: ['Next.js', 'TailwindCSS', 'Firebase Auth', 'Firebase Realtime DB'],
+    liveUrl: 'https://mychattingapp.vercel.app',
+    githubUrl: 'https://github.com/Sumit112234/Chatting-app',
+    videoUrl: '/vedio/chatting-app.mp4',
+    featured: true,
+  },
+    {
+    id: 2,
+    title: 'Guru Electronics Ecommerce',
+    description:
+      'Full-featured e-commerce website for electronics with real-time inventory, secure payments and an admin dashboard.',
+    image: '/images/guru-electronic.png',
+    technologies: ['React js', 'MongoDB', 'Expressjs', "Next js"],
+    liveUrl: 'https://guruelectronic.vercel.app/',
+    githubUrl: 'https://github.com/Sumit112234/Guru-Ecommerce',
+    videoUrl: '/vedio/guru-electronic.mp4',
+    featured: true,
+  },
+
+  {
+    id: 14,
+    title: 'Grade Management System',
+    description:
+      'A web application for educators to manage student grades, assignments, and attendance with role-based access and reporting features.',
+    image: '/images/grade-management.png',
+    technologies: ['React js', 'MongoDB', 'TailwindCSS', 'Express', 'Node js'],
+    liveUrl: 'https://grademanagement.vercel.app/',
+    githubUrl: 'https://github.com/Sumit112234/Grade-Management',
+    videoUrl: '/vedio/student-grade-management.mp4',
+    featured: true,
+  },
+  {
+    id: 15,
+    title: 'Google-meet-clone',
+    description:
+      'A video conferencing app clone with real-time video, audio, and chat features using WebRTC and Socket.io for seamless communication.',
+    image: '/images/ai-interviewer.png',
+    technologies: ['Next.js', 'MongoDB', 'TailwindCSS', 'OAuth', 'COHERE'],
+    liveUrl: 'https://google-meet.vercel.app/',
+    githubUrl: 'https://github.com/Sumit112234/google-meet',
+    videoUrl: '/vedio/ai-interview.mp4',
+    featured: false,
+  },
+
+
   {
     id: 50,
     title: 'Image Generator',
@@ -153,6 +205,8 @@ export const portfolioData = {
     videoUrl: 'https://www.youtube.com/embed/yourVideoId',
     featured: false,
   },
+
+
   {
     id: 5,
     title: 'PlayTube',
@@ -160,11 +214,13 @@ export const portfolioData = {
       'YouTube-like platform fetching videos from APIs, storing in Firebase and designed with React & TailwindCSS.',
     image: '/images/playtube.png',
     technologies: ['React', 'TailwindCSS', 'Firebase', 'Rapid API'],
-    liveUrl: 'https://playtube-demo.com',
-    githubUrl: 'https://github.com/yourname/playtube',
+    liveUrl: 'https://playytube.netlify.app',
+    githubUrl: '/',
     videoUrl: 'https://www.youtube.com/embed/yourVideoId',
     featured: false,
   },
+
+
   {
     id: 6,
     title: 'TopAi',
@@ -173,22 +229,12 @@ export const portfolioData = {
     image: '/images/topai.png',
     technologies: ['React', 'TailwindCSS', 'Gemini API'],
     liveUrl: 'https://topai.netlify.app/',
-    githubUrl: 'https://github.com/yourname/topai',
+    githubUrl: 'https://github.com/sumit112234',
     videoUrl: 'https://www.youtube.com/embed/yourVideoId',
     featured: false,
   },
-  {
-    id: 7,
-    title: 'Hisaab Kitaab',
-    description:
-      'Group expense tracking app where members add expenses and the total is split equally among approved users.',
-    image: '/images/hisaab-kitaab.png',
-    technologies: ['MERN', 'TailwindCSS'],
-    liveUrl: 'https://hisaabkitaab-demo.com',
-    githubUrl: 'https://github.com/yourname/hisaabkitaab',
-    videoUrl: 'https://www.youtube.com/embed/yourVideoId',
-    featured: false,
-  },
+
+
   {
     id: 8,
     title: 'Gym Management',
